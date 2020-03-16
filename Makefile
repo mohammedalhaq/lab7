@@ -23,10 +23,9 @@ run:
 	java -cp $(cp) Check ./tests/test5.expr
 
 clean:
-	rm -f src/Calc*.java src/*.tokens src/*.interp output.edn report.edn
+	rm -f src/Expr*.java src/*.tokens src/*.interp output.edn report.edn
 
-drive:
+check:
 	$(jdriver) \
-		:drive plan-v2.edn expected.edn \
 		:testdrive expected.edn output.edn \
 		:report output.edn report.edn
