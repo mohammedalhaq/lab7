@@ -1,0 +1,14 @@
+{:plan
+ [{:title "Lab6", :default {:check :all}}
+  (:check :Check "tests/test1.expr")
+  (:check :Check "tests/test2.expr")
+  (:check :Check "tests/test3.expr")
+  (:check :Check "tests/test4.expr")
+  (:check :Check "tests/test5.expr")],
+ :results
+ [{:return nil, :duration 48, :stdout "7.00\n"}
+  {:return nil, :duration 1, :stdout "0.00\n"}
+  {:return nil, :duration 1, :stdout "1.00\n"}
+  {:return nil, :duration 2, :stdout "10.00\n"}
+  {:return nil, :duration 1, :stdout "-0.41\n"}],
+ :version "1.0"}

@@ -1,2 +1,2 @@
-# lab7
-A simple calculator with SDD using Antlr
+# lab7-solution
+Using SDD to implement a calculator
